@@ -736,8 +736,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0441\u0442\u043E\u0440\u043E\u043D\u0443\n
-    X \u0438\u043B\u0438 O"
+  m_Text: "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0441\u0442\u043E\u0440\u043E\u043D\u0443\nX
+    \u0438\u043B\u0438 O"
 --- !u!222 &672098635
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2729,16 +2729,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f64cc059dfbca143b6fb9df885f7ff0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonList:
-  - {fileID: 1851349308}
-  - {fileID: 221740419}
-  - {fileID: 924456040}
-  - {fileID: 1319114521}
-  - {fileID: 401318172}
-  - {fileID: 630456211}
-  - {fileID: 1502300311}
-  - {fileID: 328187745}
-  - {fileID: 1192833190}
+  Board:
+  - Text: {fileID: 1851349308}
+    Index: 0
+  - Text: {fileID: 221740419}
+    Index: 1
+  - Text: {fileID: 924456040}
+    Index: 2
+  - Text: {fileID: 1319114521}
+    Index: 3
+  - Text: {fileID: 401318172}
+    Index: 4
+  - Text: {fileID: 630456211}
+    Index: 5
+  - Text: {fileID: 1502300311}
+    Index: 6
+  - Text: {fileID: 328187745}
+    Index: 7
+  - Text: {fileID: 1192833190}
+    Index: 8
+  PlayerMove: 0
   gameOverPanel: {fileID: 1094628436}
   gameOverText: {fileID: 1446538198}
   restartButton: {fileID: 50956592}
@@ -2757,5 +2767,3 @@ MonoBehaviour:
     panelColor: {r: 0, g: 1, b: 0.8086612, a: 0.6666667}
     textColor: {r: 0.2735849, g: 0.2720363, b: 0.2720363, a: 0.47058824}
   startInfo: {fileID: 1275789623}
-  playerMove: 0
-  delay: 10

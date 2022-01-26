@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,9 +13,9 @@ public class GridScript : MonoBehaviour
 
     public void SetSpace()
     {
-        if (gameControler.playerMove == true)
+        if (gameControler.PlayerMove == true)
         {
-            buttonText.text = gameControler.GetPlayerSide();
+            buttonText.text = gameControler.GetPlayerSide;
             button.interactable = false;
             gameControler.EndTurn();
         }
